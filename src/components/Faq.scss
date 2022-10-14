@@ -1,0 +1,62 @@
+@import "../variables";
+
+.faq{
+    background-color: #111111;
+    color: $color-third;
+
+    h2{
+        color: $color-third;
+        font-size: 2.2rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .fa{
+        font-size: 2em;
+    }
+
+    .itens{
+        display: contents;
+        cursor: pointer;
+    }
+
+    
+
+    .accordion-item {
+        background-color: transparent;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: #3b2e4a;
+    }
+
+    .accordion-button{
+        color: white;
+        background-color: #3b2e4a;
+    }
+
+    .accordion-button::after{
+        background-color: white;
+        border-radius: 10rem;
+    }
+
+
+    @media screen and (min-width: 992px) {
+        h2{
+            font-size: 3.5rem;
+        }
+
+        .fa{
+            font-size: 3em;
+        }
+
+        .itens{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+
+}

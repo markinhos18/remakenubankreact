@@ -1,0 +1,27 @@
+@import "../variables";
+
+h1 {
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: $color-primary;
+  border-bottom: 0.2rem solid $color-secondary;
+
+  a.dropdown-toggle.nav-link {
+    color: white;
+  }
+  a.dropdown-toggle.nav-link:hover {
+    color: black;
+  }
+
+  .nav-right {
+    display: flex;
+    gap: 3rem;
+  }
+
+}
+
+.no-line {
+  border-color: transparent !important;
+}

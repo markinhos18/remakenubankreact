@@ -1,0 +1,28 @@
+@import "../variables";
+
+.institutional{
+    background-image: url('../assets/institucional.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    
+    .title-primary{
+        color: $color-third;
+        font-size: 2.2rem;
+        font-weight: 300;
+        line-height: 1.2;
+
+        @media screen and (min-width: 992px) {
+            font-size: 3.5rem;
+            
+        }
+    }
+}
+
+
+
+.btn-count{
+    width: 15rem !important;
+}
